@@ -1,0 +1,19 @@
+/* CodeEditor.css */
+.cm-scroller {
+  overflow-y: auto;
+  scrollbar-width: thin; /* "auto" or "thin" depending on browser support */
+  scrollbar-color: #888 transparent; /* color of the scrollbar */
+}
+
+.cm-scroller::-webkit-scrollbar {
+  width: 8px; /* width of the scrollbar */
+}
+
+.cm-scroller::-webkit-scrollbar-thumb {
+  background-color: #888; /* color of the scrollbar thumb */
+  border-radius: 4px; /* roundness of the scrollbar thumb */
+}
+
+.cm-scroller::-webkit-scrollbar-track {
+  background-color: transparent; /* color of the scrollbar track */
+}
